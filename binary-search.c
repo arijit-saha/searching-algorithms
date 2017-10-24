@@ -34,4 +34,5 @@ void main() {
 		printf("%d found at %d position\n",item,pos);
 	else
 		printf("%d not found\n",item);
+getch();
 }
