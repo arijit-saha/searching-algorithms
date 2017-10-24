@@ -30,10 +30,8 @@ void main() {
 	scanf("%d",&item);
 	pos = binary_search(arr, n, item);
 
-	if (pos>0) {
+	if (pos>0)
 		printf("%d found at %d position\n",item,pos);
-	}
-	else {
+	else
 		printf("%d not found\n",item);
-	}
 }
